@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<h1>ONLINE CALCULATOR</h1>
+
+    <section class="calculator">
+        <form name="form1">
+        <input id="result-process" name = "result">
+        </form>
+    </section>
+
+        <section class="number-1">
+
+            <button class="num" id="num1" value="1" onclick="form1.result.value += '1'">1</button>
+            <button class="num" id="num2" onclick="form1.result.value+= '2'">2</button>
+            <button class="num" id="num3" onclick="form1.result.value+= '3'">3</button>
+            <button class="num" id="num-divide"  onclick="form1.result.value+= '/' ">/</button>
+        </section>
+
+        <section class="number-1">
+            <button class="num" id="num4" onclick="form1.result.value+= '4'">4</button>
+            <button class="num" id="num5" onclick="form1.result.value+= '5'">5</button>
+            <button class="num" id="num6" onclick="form1.result.value+= '6'">6</button>
+            <button class="num" id="num-multiply" onclick="form1.result.value+= '*'">*</button>
+        </section>
+
+        <section class="number-1">
+            <button class="num" id="num7" onclick="form1.result.value+= '7'">7</button>
+            <button class="num" id="num8" onclick="form1.result.value+= '8'">8</button>
+            <button class="num" id="num9" onclick="form1.result.value+= '9'">9</button>
+            <button class="num" id="num-minus" onclick="form1.result.value+= '-'">-</button>
+        </section>
+
+        <section class="number-1">
+            <button class="num" id="num-dot" onclick="form1.result.value+= '.'">.</button>
+            <button class="num" id="num-zero" onclick="form1.result.value+= '0'">0</button>
+            <button class="num" id="num-plus" value="+" onclick="form1.result.value += '00'">00</button>
+            <button class="num" id="num-plus" value="+" onclick="form1.result.value += '+'">+</button>
+           
+
+        </section>
+
+        <section class="number-2">
+            <button class="main1"  id="clear" onclick="form1.result.value= ' '">CLEAR</button>
+            <button class="main2" id="num-equal" value="=" onclick=" form1.result.value = eval(form1.result.value)">=</button>
+
+        </section>
+
+
+
+
+
+
+    
+</body>
+
+</html>
